@@ -5,7 +5,17 @@ import '../index.css';
 export default function HomePage(){
     return(
         <div>
-            <h1 className="font-bold text-3xl  min-h-screen ">This is Home Page</h1>
+            <h1 className="font-bold text-3xl ">This is Home Page</h1>
+            <ul className="flex flex-col bg-black">
+                <li>Somethins</li>
+                <li>Somethins</li>
+                <li>Somethins</li>
+                <li>Somethins</li>
+                <li>Somethins</li>
+                <li>Somethins</li>
+                <li>Somethins</li>
+
+            </ul>
            
 
         </div>
