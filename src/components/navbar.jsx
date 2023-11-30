@@ -15,7 +15,7 @@ export default function Navbar(){
             <div className="w-11/12 h-20 pt-10 z-20  top-0 mx-auto mb-3 " >
                 <nav className="h-fit w-full border-b-2 border-primary flex items-center justify-between min800:relative">
                 <div className="self-center -ml-56 order-2 min800:order-1 min800:ml-0 min800"><p className="text-5xl text-secondary font-cormorant uppercase cursor-pointer md1000:text-2xl min620:text-3xl" onClick={() => navigate("/")}>Herbify</p></div>
-                <button className="max800:hidden  min800:order-3 mr-3 min800 right-0 " onClick={() => setMobile(!Mobile)}>
+                <button className="max800:hidden  min800:order-3 mr-5 min800 right-0 " onClick={() => setMobile(!Mobile)}>
                 {Mobile ? <ImCross className="text-5xl"/> : <FaBars className="text-5xl"/>}
                 </button>
                 <ul className={Mobile ? "top-11 z-30 bg-slate-100 h-fit w-full border-b-2 border-black min800:absolute" : "flex items-center justify-between order-1 min800:hidden mr"}  onClick={() => setMobile(false)} >
