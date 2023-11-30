@@ -83,3 +83,19 @@ body{
 }
 
 
+@media only screen and (max-width: 1200px){
+  
+  .social-button{
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  svg{
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .social-buttons{
+    width: 30%;
+  }}
