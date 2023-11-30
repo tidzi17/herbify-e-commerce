@@ -28,6 +28,7 @@ module.exports = {
       },
       fontFamily:{
         cormorant: ['Cormorant', 'serif'],
+        inter: ['Inter', 'sans-serif'],
       },
       height: {
         '200vh': '200vh',
