@@ -1,5 +1,3 @@
-import './index.css';
-/* import './App.css'; */
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
@@ -12,9 +10,11 @@ import AboutPage from './pages/about';
 import Footer from './components/footer';
 
 
+
 function App() {
   return (
-    <Router>
+    <>
+   
     <div className="wrapper">
     <Navbar/>
     <Routes>
@@ -27,7 +27,8 @@ function App() {
     </Routes>
     <Footer />
     </div>
-  </Router>
+  
+  </>
   );
 }
 
