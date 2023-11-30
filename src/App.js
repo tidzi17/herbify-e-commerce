@@ -1,4 +1,4 @@
-/* import './index.css'; */
+import './index.css';
 /* import './App.css'; */
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -9,6 +9,7 @@ import SalePage from './pages/sale';
 import CartPage from './pages/cart';
 import Wishlist from './pages/wishlist';
 import AboutPage from './pages/about';
+import Footer from './components/footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <Route path="/cart" element={<CartPage />} />
     <Route path="/wishlist" element={<Wishlist />} />
     </Routes>
+    <Footer />
     </div>
   </Router>
   );

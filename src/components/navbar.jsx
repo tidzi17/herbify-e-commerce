@@ -23,7 +23,7 @@ export default function Navbar(){
                 <li className="text-xl cursor-pointer md1000:text-sm min800:p-5 min800:text-xxl " onClick={() => navigate("/")}>Home</li>
                 <li className="text-xl cursor-pointer md1000:text-sm min800:p-5 min800:text-xxl" onClick={() => navigate("/categories")}>Categories</li>
                 <li className="text-xl cursor-pointer md1000:text-sm min800:p-5 min800:text-xxl" onClick={() => navigate("/about")}>About</li>
-                <li className="text-xl cursor-pointer md1000:text-sm min800:p-5 min800:text-xxl" onClick={() => navigate("/sale")}>Sale</li>
+                <li className="text-xl text-primaryRed cursor-pointer md1000:text-sm min800:p-5 min800:text-xxl" onClick={() => navigate("/sale")}>Sale</li>
                 </div>
                 </ul>
                 <div className="flex justify-between gap-3 items-center mr-4 order-3 min800:order-2 min800:-mr-72 min620:-mr-36 min450:-mr-24">

@@ -21,7 +21,7 @@ module.exports = {
         secondary: '#214A0E',
         black: '#222222',
         footerPrimaryP: '#605F5F',
-        primaryRed: 'E52626',
+        primaryRed: '#E52626',
         primaryGrey: '#D9D9D9',
         cardP: '#494A49',
         primaryBg: '#F7F7F7',
