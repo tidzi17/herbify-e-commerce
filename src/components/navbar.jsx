@@ -12,7 +12,7 @@ export default function Navbar(){
     const [Mobile, setMobile] = useState(false);
 
     return( 
-            <div className="w-11/12 h-20 pt-10 z-20  top-0 mx-auto mb-3 " >
+            <div className="w-11/12 h-20 pt-10 z-20  top-0 mx-auto mb-3 min800:h-10vh " >
                 <nav className="h-fit w-full border-b-2 border-primary flex items-center justify-between min800:relative">
                 <div className="self-center -ml-56 order-2 min800:order-1 min800:ml-0"><p className="text-5xl text-secondary font-cormorant uppercase cursor-pointer md1000:text-2xl min620:text-3xl" onClick={() => navigate("/")}>Herbify</p></div>
                {/*  <button className="max800:hidden  min800:order-3  min800 right-0 " onClick={() => setMobile(!Mobile)}>
