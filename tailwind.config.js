@@ -23,12 +23,14 @@ module.exports = {
         footerPrimaryP: '#605F5F',
         primaryRed: '#E52626',
         primaryGrey: '#D9D9D9',
-        cardP: '#494A49',
+        secondaryGrey: '#494A49',
         primaryBg: '#F7F7F7',
+        thirdlyGrey: '#E2E2E2',
       },
       fontFamily:{
         cormorant: ['Cormorant', 'serif'],
         inter: ['Inter', 'sans-serif'],
+        italiana: ['Italiana'],
       },
       height: {
         '10vh': '10vh',

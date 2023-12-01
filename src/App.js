@@ -8,6 +8,8 @@ import CartPage from './pages/cart';
 import Wishlist from './pages/wishlist';
 import AboutPage from './pages/about';
 import Footer from './components/footer';
+import Subscribe from './components/subscribe';
+import FaqPage from './pages/faq';
 
 
 
@@ -24,7 +26,9 @@ function App() {
     <Route path="/sale" element={<SalePage />} />
     <Route path="/cart" element={<CartPage />} />
     <Route path="/wishlist" element={<Wishlist />} />
+    <Route path="/faq" element={<FaqPage />} />
     </Routes>
+    <Subscribe />
     <Footer />
     </div>
   

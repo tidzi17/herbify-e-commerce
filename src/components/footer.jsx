@@ -50,7 +50,7 @@ export default function Footer(){
                 <ul className="min800:flex min800:flex-col min800:items-center">
                         <li className="font-inter text-footerPrimaryP md1200:text-sm">Blog</li>
                         <li className="font-inter text-footerPrimaryP md1200:text-sm">Careers</li>
-                        <li className="font-inter text-gray-800 cursor-pointer md1200:text-sm">FAQ</li>
+                        <li className="font-inter text-gray-800 cursor-pointer md1200:text-sm" onClick={() => navigate("/faq")}>FAQ</li>
                         <li className="font-inter text-footerPrimaryP md1200:text-sm">Newsroom</li>
                         <li className="font-inter text-footerPrimaryP md1200:text-sm">Partners</li>
                         

@@ -1,0 +1,78 @@
+{
+    "shopping": [
+      {
+        "question": "How can I browse and find products on Herbify?",
+        "answer": "You can explore our diverse range of indoor and outdoor plants by navigating through the categories in the menu, including Indoor Decor, Office Plants, Outdoor Selection, and Decoration Plants."
+      },
+      {
+        "question": "Can I save my favorite products for later?",
+        "answer": "Yes, you can! Simply click on the heart icon next to the product, and it will be added to your wishlist for future reference."
+      },
+      {
+        "question": "Are the prices on Herbify inclusive of taxes?",
+        "answer": "Yes, all prices displayed on Herbify include applicable taxes. You won't encounter any hidden charges during the checkout process."
+      },
+      {
+        "question": "What if I need assistance while shopping?",
+        "answer": "If you have any questions or need assistance, feel free to reach out to our customer support team through the` Need Help?` section at the bottom of the page."
+      }
+      
+    ],
+    "payment": [
+      {
+        "question": "What payment methods does Herbify accept?",
+        "answer": "Herbify accepts various payment methods, including major credit cards, debit cards, and secure online payment gateways for a seamless and secure checkout experience."
+      },
+      {
+        "question": "Is my payment information secure on Herbify?",
+        "answer": "Absolutely. Herbify prioritizes the security of your payment information. All transactions are encrypted, and we do not store any payment details on our servers."
+      },
+      {
+        "question": "Can I modify or cancel my order after payment?",
+        "answer": "Once an order is placed and payment is processed, it cannot be modified or canceled. Please review your order carefully before confirming your purchase."
+      },
+      {
+        "question": "Are there any additional fees for using a specific payment method?",
+        "answer": "No, Herbify does not charge any additional fees based on your chosen payment method. The total amount displayed during checkout is the final amount you'll pay."
+      }
+      
+    ],
+    "delivery": [
+      {
+        "question": "How is the delivery cost calculated?",
+        "answer": "The delivery cost is calculated based on your location and the size of your order. You can view the shipping fees during the checkout process before finalizing your purchase."
+      },
+      {
+        "question": "What is the estimated delivery time for Herbify orders?",
+        "answer": "The estimated delivery time depends on your location. We aim to deliver your order within 4 business days. You can track your order through the provided tracking information."
+      },
+      {
+        "question": "Can I change my delivery address after placing the order?",
+        "answer": "Unfortunately, once the order is confirmed, we cannot modify the delivery address. Please ensure your address is accurate before completing your purchase"
+      },
+      {
+        "question": "What if my product is damaged during delivery?",
+        "answer": "In the rare event that your product arrives damaged, please contact our customer support team immediately. We will arrange for a replacement or refund as appropriate."
+      }
+     
+    ],
+    "returnPolicy": [
+      {
+        "question": "Can I return a product if I change my mind?",
+        "answer": "Yes, Herbify offers a hassle-free return policy. If you change your mind within 14 days of receiving the product, you can initiate a return through your account."
+      },
+      {
+        "question": "How do I initiate a return on Herbify?",
+        "answer": "Log in to your Herbify account, go to the `Order History` section, select the order containing the item you want to return, and follow the provided instructions for initiating a return."
+      },
+      {
+        "question": "Are there any return shipping fees?",
+        "answer": "oIf the return is due to a product defect or an error on our part, Herbify will cover the return shipping fees. For other reasons, return shipping fees may apply."
+      },
+      {
+        "question": "When can I expect a refund after initiating a return?",
+        "answer": "Once we receive the returned item and verify its condition, we will process your refund. Please allow 3 business days for the refund to reflect in your account."
+      }
+      
+    ]
+  }
