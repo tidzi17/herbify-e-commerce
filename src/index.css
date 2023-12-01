@@ -104,10 +104,11 @@ body{
   width: 40%; 
 }
 
-#image-text{
+.image-text{
   background-image: url(./assets/leaf.png);
   background-position: center;
   -webkit-background-clip: text;
+  background-clip: text;
   background-attachment: fixed;
   color: transparent;
   -webkit-text-stroke-width: 1px;
@@ -130,24 +131,33 @@ body{
   height: auto;
   max-height: 9999px;
   transition: all 0.5s ease-in;
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
   
 }
 
 @media only screen and (max-width: 1200px){
-  
+  #image-text{
+    font-size: 9rem;
+  }
   .social-button{
     width: 1.2rem;
     height: 1.2rem;
   }
-  svg{
+  .social-button svg{
     height: 40%;
     width: 40%;
   }
+
+
 }
 
 @media only screen and (max-width: 800px){
   .social-buttons{
     width: fit-content;
     margin: 0 auto;
-  }}
+  }
+  .image-text{
+    font-size: 5rem;
+  }
+}

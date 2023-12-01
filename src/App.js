@@ -10,6 +10,8 @@ import AboutPage from './pages/about';
 import Footer from './components/footer';
 import Subscribe from './components/subscribe';
 import FaqPage from './pages/faq';
+import NotFound from './pages/404';
+
 
 
 
@@ -21,12 +23,13 @@ function App() {
     <Navbar/>
     <Routes>
     <Route path="/" exact element={<HomePage />} />
-    <Route path="/categories" element={<CategoriesPage />} />
-    <Route path="/about" element={<AboutPage />} />
-    <Route path="/sale" element={<SalePage />} />
-    <Route path="/cart" element={<CartPage />} />
-    <Route path="/wishlist" element={<Wishlist />} />
-    <Route path="/faq" element={<FaqPage />} />
+    <Route path="/categories" exact element={<CategoriesPage />} />
+    <Route path="/about" exact element={<AboutPage />} />
+    <Route path="/sale" exact element={<SalePage />} />
+    <Route path="/cart" exact element={<CartPage />} />
+    <Route path="/wishlist" exact element={<Wishlist />} />
+    <Route path="/faq" exact element={<FaqPage />} />
+    <Route path='*' element={<NotFound />}/>
     </Routes>
     <Subscribe />
     <Footer />
