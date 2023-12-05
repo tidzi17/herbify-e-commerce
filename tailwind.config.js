@@ -26,6 +26,7 @@ module.exports = {
         secondaryGrey: '#494A49',
         primaryBg: '#F7F7F7',
         thirdlyGrey: '#E2E2E2',
+        textGrey: "#494A49",
       },
       fontFamily:{
         cormorant: ['Cormorant', 'serif'],

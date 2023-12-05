@@ -124,9 +124,8 @@ body{
   font-weight: 100;
   overflow: hidden;
   transition: all 0.6s ease-in;
-  
-  
 }
+
 .faq-answer.show {
   height: auto;
   max-height: 9999px;
@@ -134,6 +133,14 @@ body{
   padding-top: 5px;
   padding-bottom: 20px;
   
+}
+
+#about-image-first{
+  height: 60rem;
+}
+#about-img-second{
+  width: 40rem;
+  height: 28rem;
 }
 
 @media only screen and (max-width: 1200px){
